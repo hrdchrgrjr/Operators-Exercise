@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var a = 17;
+            var b = 4;
+            var quotient = a/b;
+            var remainder = a % b;
+            if (a == 17 && b == 4)
+            {
+                Console.WriteLine(a + "/" + b + " is " + quotient + " remainder " + remainder);
+            }
         }
     }
 }
